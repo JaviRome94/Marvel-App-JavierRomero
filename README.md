@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # New Project
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
@@ -23,3 +24,6 @@ Your app is ready to be deployed!
 
 Launches the application test runner.
 Run with the `--watch` flag (`npm test -- --watch`) to run in interactive watch mode.
+=======
+# Marvel-App-JavierRomero
+>>>>>>> edcb3a71873f337f5d53eea91f955778585d7d90
