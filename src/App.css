@@ -1,45 +1,87 @@
+
+/* * {
+  box-sizing: border-box;
+} */
+
+/* body {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+  overflow-x: hidden;
+} */
+
 .App {
   text-align: center;
-}
-.App code {
-  background: #FFF3;
-  padding: 4px 8px;
-  border-radius: 4px;
-}
-.App p {
-  margin: 0.4rem;
-}
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  height: auto;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+.comics_container {
+  margin-top: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+
+/* .content {
+  max-width: 40rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+  text-align: center;
+} */
+
+.header-video {
+  position: absolute;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  
+}
+
+
+/* .header-overlay {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  
+} */
+
+
+.video {
+  position: absolute;
+  height: 100%;
+  width: 100vw;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #353c52;
+  z-index: 1;
+  opacity: .80;
+}
+
+
+.z-99 {
+  z-index: 999;
+}
+
+
+@media (max-width: 960px) {
+  .content {
+    padding: 0 3rem 0 3rem;
   }
 }
+
+
+
